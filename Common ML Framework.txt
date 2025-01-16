@@ -1,0 +1,25 @@
+Common ML Framework :
+
+Apps : vs code, anaconda, docker, cloud(aws), git
+ 
+Step 1: Create or clone repo from Git
+	Creation : create a repo, copy the url
+	Cloning : Navigate to desired folder, open any prompt using shift right click. 
+		  type "git clone https://github.com/Ray-XXX-eee/ML_002.git"
+	Open VC: type 'code .' in cmd. VS code will open.
+
+Step 2: Create & activate env : 
+	* Create anaconda env (must have anaconda or use python env) by typing :
+		terminal : conda init
+			   conda create --prefix ./env python=3.9 -y
+			   ( --prefir or -p forces to create the env in the current dir , -y gives permission to 			   cteate)
+	* Activate the env :
+		terminal: conda activate ./env
+	
+	** note: use 'conda env list' to check active env, 'conda env remove -p path' to remove env, which python 		to verify python loc and env **
+
+Step 3: Create initial setup & folder struct:
+	Create requirements.txt, template.py, setup.py
+	
+	
+
